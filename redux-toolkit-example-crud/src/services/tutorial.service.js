@@ -1,6 +1,6 @@
 import http from "../http-common"
 
-class TutorialDataService {
+class TutorialDataService  {
   getAll() {
     return http.get("/tutorials");
   }
